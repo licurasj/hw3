@@ -86,7 +86,16 @@ int main(int argc, char* argv[])
     print(head);
 
     // Test out your linked list code
+    Node* smaller;
+    Node* larger;
 
+    llpivot(head, smaller, larger,8);
+
+    print(smaller);
+    print(larger);
+    cout << "printing head";
+    print(head);
+    cout << "done" << endl;
 
 
     
