@@ -13,7 +13,7 @@
 
 Circuit::Circuit() : m_current_time(0) 
 {
-    m_pq = Heap<Event*>(2,);
+    
 }
 
 Circuit::~Circuit()
